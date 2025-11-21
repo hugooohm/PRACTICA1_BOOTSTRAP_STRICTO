@@ -504,3 +504,49 @@ section {
   border-color: var(--stricto-accent);
   box-shadow: 0 0 0 0.1rem rgba(245, 255, 59, 0.25);
 }
+
+/* ========== FAQ / ACORDEÓN OSCURO ========== */
+.faq-section {
+  background-color: var(--stricto-bg);
+}
+
+.faq-accordion .accordion-item {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(245, 245, 245, 0.16);
+  background-color: #050608;
+  margin-bottom: 0.75rem;
+}
+
+.faq-accordion .accordion-button {
+  background-color: #050608;
+  color: var(--stricto-text);
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.faq-accordion .accordion-button:focus {
+  box-shadow: 0 0 0 0.1rem rgba(245, 245, 245, 0.2);
+}
+
+.faq-accordion .accordion-body {
+  color: var(--stricto-muted);
+}
+
+
+@media (min-width: 768px) {
+  .gallery-item {
+    min-height: 220px;
+  }
+
+  .frame-container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+  }
+}
