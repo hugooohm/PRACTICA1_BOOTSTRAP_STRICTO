@@ -5,7 +5,24 @@ AOS.init({
   once: true
 });
 
-// NEWSLETTER HOME
+$(document).ready(function () {
+  console.log("STRICTO listo y funcionando");
+
+  // ========== FORMULARIO DE CONTACTO (ABOUT) ==========
+  const $contactForm = $("#contact-form");
+
+  if ($contactForm.length) {
+    $contactForm.on("submit", function (e) {
+      e.preventDefault(); // evita que recargue la página
+
+      alert("Tu mensaje se ha enviado correctamente.");
+
+      // opcional: limpiar el formulario
+      this.reset();
+    });
+  }
+
+  // NEWSLETTER HOME
 const $newsletterForm = $("#newsletter-form");
 
 if ($newsletterForm.length) {
@@ -18,8 +35,9 @@ if ($newsletterForm.length) {
 
     this.reset();
   });
+}
 
-// ========== ANIMACIÓN SCROLL 3D EN COLECCION ==========
+  // ========== ANIMACIÓN SCROLL 3D EN COLECCION ==========
   const frameElement = document.getElementById("frame-sequence");
 
   // Solo ejecutar en coleccion.html (donde existe #frame-sequence)
@@ -60,4 +78,4 @@ if ($newsletterForm.length) {
       } 
     });
   }
-};
+});
