@@ -473,3 +473,34 @@ section {
   font-size: 0.9rem;
   color: var(--stricto-muted);
 }
+
+/* ========== CONTACTO ========== */
+.contact-section {
+  background-color: var(--stricto-bg-soft);
+}
+
+.contact-card {
+  border-radius: 20px;
+  border: 1px solid rgba(245, 245, 245, 0.18);
+  padding: 1.8rem 2rem;
+  background-color: #050608;
+}
+
+.form-control,
+.form-select {
+  background-color: #050608;
+  border: 1px solid rgba(245, 245, 245, 0.24);
+  color: var(--stricto-text);
+}
+
+.form-control::placeholder {
+  color: var(--stricto-muted);
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #050608;
+  color: var(--stricto-text);
+  border-color: var(--stricto-accent);
+  box-shadow: 0 0 0 0.1rem rgba(245, 255, 59, 0.25);
+}
