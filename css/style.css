@@ -421,3 +421,55 @@ section {
   height: auto;
   object-fit: contain;
 }
+
+/* ========== ABOUT US ========== */
+.about-hero-section {
+  padding: 5rem 0 4rem;
+  background-color: var(--stricto-bg);
+}
+
+.about-hero-card {
+  border-radius: 20px;
+  border: 1px solid rgba(245, 245, 245, 0.18);
+  padding: 1.8rem 2rem;
+  background: radial-gradient(circle at top left, #141821, #050608);
+}
+
+.about-team-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-team-card {
+  border-radius: 20px;
+  border: 1px solid rgba(245, 245, 245, 0.14);
+  padding: 1.8rem 2rem;
+  background: #050608;
+}
+
+.about-team-title {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-bottom: 1rem;
+  color: var(--stricto-muted);
+}
+
+.about-person-name {
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+
+.about-person-role {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--stricto-muted);
+  margin-bottom: 0.35rem;
+}
+
+.about-person-text {
+  font-size: 0.9rem;
+  color: var(--stricto-muted);
+}
