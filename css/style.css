@@ -383,3 +383,41 @@ section {
   background-color: #eaeaea;
   color: #000;
 }
+
+/* ========== COLECCIÓN 3D SCROLL ========== */
+.collection-3d-section {
+  position: relative;
+  height: 100vh;              
+  background: #000;
+  color: #ffffff;
+  overflow: hidden;
+
+}
+
+.collection-hero-card {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 1.8rem 2rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  max-width: 380px;
+  text-align: center;          
+}
+
+
+.collection-hero-card .hero-title {
+  font-size: clamp(2.1rem, 3vw, 2.6rem);
+}
+
+.frame-container {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#frame-sequence {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
