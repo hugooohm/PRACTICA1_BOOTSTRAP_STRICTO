@@ -325,3 +325,61 @@ section {
 .gallery-item:hover .gallery-img {
   transform: scale(1.05);
 }
+
+
+/* ========== NEWSLETTER HOME ========== */
+.newsletter-section {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.newsletter-title {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  font-weight: 700;
+}
+
+.newsletter-subtitle {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--stricto-muted);
+}
+
+.newsletter-form {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-input-wrapper {
+  flex: 1 1 auto;
+}
+
+.newsletter-input {
+  background-color: #111 !important;
+  border: 1px solid #333 !important;
+  color: #fff !important;
+  border-radius: 0;
+  padding-block: 0.75rem;
+}
+
+.newsletter-input::placeholder {
+  color: #777;
+}
+
+.newsletter-btn {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0;
+  padding: 0.75rem 1.8rem;
+  font-weight: 600;
+  border: none;
+  white-space: nowrap;
+}
+
+.newsletter-btn:hover {
+  background-color: #eaeaea;
+  color: #000;
+}
