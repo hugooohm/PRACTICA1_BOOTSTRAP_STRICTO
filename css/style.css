@@ -354,7 +354,7 @@ section {
 }
 
 .newsletter-input-wrapper {
-  flex: 1 1 auto;
+  flex: 1 1 200%;
 }
 
 .newsletter-input {
